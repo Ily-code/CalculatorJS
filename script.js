@@ -1,3 +1,4 @@
+// this comment fix  git add
 const calculatorScreen = document.querySelector(".calculator-screen");
 
 const updateScreen = (number) => {
