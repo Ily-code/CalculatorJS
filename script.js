@@ -1,4 +1,4 @@
-// this comment fix  git add
+// this comment fix  git add and source
 const calculatorScreen = document.querySelector(".calculator-screen");
 
 const updateScreen = (number) => {
@@ -110,3 +110,4 @@ inputDecimal = (dot) => {
   }
   currentNumber += dot;
 };
+// this comment fix  git add and source
