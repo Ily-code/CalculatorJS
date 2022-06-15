@@ -1,4 +1,3 @@
-
 .calculator {
   text-align: center;
   margin: 0 auto;
@@ -11,17 +10,19 @@
 .calculator-screen {
   width: 100%;
   height: 100px;
-  background-color: #252525;
-  color: white;
+  background-color: #fff;
+  color: #405d27;
   text-align: right;
-  font-size: 32px;
+  font-size: 36px;
   border: none;
   padding: 0 20px;
   box-sizing: border-box;
-  /* border-radius: 25px;
-  border: 3px solid #00cba9;
+  border-radius: 25px;
+  margin-bottom: 20px;
+  /* border: 2px solid #405d27; */
+  /* 
   padding: 0 20px;
- \ */
+  */
 }
 .calculator-key {
   width: 100%;
@@ -33,13 +34,25 @@
 
 button {
   height: 80px;
-  background-color: gray;
-  border: 1px solid black;
+  background-color: grey;
+  border: 1px solid white;
   font-size: 32px;
   color: white;
-  width: 25%;
+  width: 50%;
   outline: none;
   /* border-radius: 25px; */
+}
+.all-clear {
+  border-radius: 25px 0px 0px 0px;
+}
+.br1 {
+  border-radius: 0px 25px 0px 0px;
+}
+.zero-btn {
+  border-radius: 0px 0px 0px 25px;
+}
+.equal-sign {
+  border-radius: 0px 0px 25px 0px;
 }
 
 .all-clear,
@@ -51,17 +64,18 @@ button {
 
 .operator,
 .equal-sign {
-  background-color: orange;
-  /* color: white; */
+  background-color: #ffcc5c;
+  color: black;
+  border: 1px solid white;
 }
 button:hover {
-  background-color: darkgrey;
+  background-color: #82b74b;
   /* color: white; */
 }
 
 .operator:hover,
 .equal-sign:hover {
-  background-color: darkorange;
+  background-color: #ffeead;
   /* color: #00cba9; */
 }
 /* this comment fix  git add and source  */
